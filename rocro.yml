@@ -13,13 +13,13 @@ inspecode:
     options:
       -P:
       -e:
-        - \bgets(
-        - \bscanf(
-        - \bstrcpy(
-        - \bstrcat(
-        - \bsprintf(
-        - \bvsprintf(
-        - \bwcscat(
-        - \bwcscpy(
+        - \bgets\(
+        - \bscanf\(
+        - \bstrcpy\(
+        - \bstrcat\(
+        - \bsprintf\(
+        - \bvsprintf\(
+        - \bwcscat\(
+        - \bwcscpy\(
     thresholds:
       num-issues: 0
