@@ -10,6 +10,9 @@ inspecode:
   misspell: default
   unused: default
   grep:
+    ignore:
+      - src/examples/*
+      - src/test/*
     options:
       -P:
       -e:
