@@ -1,0 +1,18 @@
+inspecode:
+
+  # Global configuration
+  thresholds:
+    complexity: 47
+    num-issues: 10
+
+  # Configuration for each tool
+  complexity: default
+  cppcheck: default
+  misspell: default
+  grep:
+    options:
+      -P:
+      -e:
+        - strcpy\([^,]*,[^,]*\)
+    thresholds:
+      num-issues: 0
