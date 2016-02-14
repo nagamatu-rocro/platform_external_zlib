@@ -12,15 +12,14 @@ inspecode:
   grep:
     options:
       -P:
-      -w:
       -e:
-        - gets\(
-        - scanf\(
-        - strcpy\(
-        - strcat\(
-        - sprintf\(
-        - vsprintf\(
-        - wcscat\(
-        - wcscpy\(
+        - \bgets(
+        - \bscanf(
+        - \bstrcpy(
+        - \bstrcat(
+        - \bsprintf(
+        - \bvsprintf(
+        - \bwcscat(
+        - \bwcscpy(
     thresholds:
       num-issues: 0
