@@ -25,4 +25,4 @@ inspecode:
         - \bwcscat\(
         - \bwcscpy\(
     thresholds:
-      num-issues: 0
+      num-issues: 28
