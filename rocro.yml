@@ -12,7 +12,7 @@ inspecode:
   grep:
     options:
       -P:
-      -e:
+      -w:
         - gets\(
         - scanf\(
         - strcpy\(
