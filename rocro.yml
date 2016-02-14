@@ -8,10 +8,18 @@ inspecode:
   # Configuration for each tool
   cppcheck: default
   misspell: default
+  unused: default
   grep:
     options:
       -P:
       -e:
-        - strcpy\([^,]*,[^,]*\)
+        - gets\(
+        - scanf\(
+        - strcpy\(
+        - strcat\(
+        - sprintf\(
+        - vsprintf\(
+        - wcscat\(
+        - wcscpy\(
     thresholds:
       num-issues: 0
