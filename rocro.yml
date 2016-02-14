@@ -13,6 +13,7 @@ inspecode:
     options:
       -P:
       -w:
+      -e:
         - gets\(
         - scanf\(
         - strcpy\(
