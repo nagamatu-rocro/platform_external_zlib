@@ -6,7 +6,6 @@ inspecode:
     num-issues: 10
 
   # Configuration for each tool
-  complexity: default
   cppcheck: default
   misspell: default
   grep:
