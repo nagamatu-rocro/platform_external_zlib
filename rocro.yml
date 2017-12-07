@@ -16,13 +16,21 @@ inspecode:
     options:
       -P:
       -e:
-        - \bgets\s*[\($]
-        - \bscanf\s*[\($]
-        - \bstrcpy\s*[\($]
-        - \bstrcat\s*[\($]
-        - \bsprintf\s*[\($]
-        - \bvsprintf\s*[\($]
-        - \bwcscat\s*[\($]
-        - \bwcscpy\s*[\($]
+        - \bgets\s*\(
+        - \bgets\s*$
+        - \bscanf\s*\(
+        - \bscanf\s*$
+        - \bstrcpy\s*\(
+        - \bstrcpy\s*$
+        - \bstrcat\s*\(
+        - \bstrcat\s*$
+        - \bsprintf\s*\(
+        - \bsprintf\s*$
+        - \bvsprintf\s*\(
+        - \bvsprintf\s*$
+        - \bwcscat\s*\(
+        - \bwcscat\s*$
+        - \bwcscpy\s*\(
+        - \bwcscpy\s*$
     thresholds:
       num-issues: 28
